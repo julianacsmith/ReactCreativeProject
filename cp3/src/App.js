@@ -9,7 +9,7 @@ import Portfolio from "./pages/Portfolio";
 export default function App() {
   return (
     <div className="App">
-        <Router>
+        <Router basename="/ReactCreativeProject/cp3/build">
             <Layout />
             <Switch>
                 <Route exact path='/' component={Home}/>

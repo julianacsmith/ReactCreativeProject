@@ -3,20 +3,41 @@
     padding: 100px;
 }
 
+.about h1{
+    text-align: Left;
+    padding: 25px;
+    background-color: rgba(255,255,255,0.8);
+}
+
 .info{
-    padding: 10px;
+    padding: 25px;
     background-color: rgba(255,255,255,0.8);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+.socials{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials img {
+    width: 100px;
+}
+
+.info img{
+    padding-left: 10px;
+}
+
 .github {
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    background-color: #07324a;
+    background-image: url("images/Background.png");
+    background-size: cover;
     color: white;
     font-size: 25px;
-    height: 500px;
+    height: 200px;
 }

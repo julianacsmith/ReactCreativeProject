@@ -6,7 +6,7 @@ const Layout = () => {
     <Navbar collapseOnSelect expand="sm" bg="light" variant="light">
         <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-            <Nav>
+            <Nav className = "mr-auto">
                 <Nav.Item>
                     <Nav.Link href="/">Home</Nav.Link>
                 </Nav.Item>

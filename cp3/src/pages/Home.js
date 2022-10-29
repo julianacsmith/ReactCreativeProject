@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className={homeStyles.page}>
         <div className = {homeStyles.top}>
-          <h1>Home</h1>
+          <h1>J is Typing - Art</h1>
         </div>
         <div className={homeStyles.socials}>
           <a href="https://www.instagram.com/j_is_typing/?hl=en"><img src={require("./images/instagram.png")}/></a>
