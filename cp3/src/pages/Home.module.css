@@ -1,10 +1,43 @@
 h1 {
     text-align: center;
-    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 100px 300px;
+    margin: auto;
 }
 
 .top {
     background-image: url('images/Stream_Background.png');
     width: 100%;
-    height: 1000px;
+    height: 500px;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.socials{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials img {
+    width: 100px;
+}
+
+.github {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/Background.png");
+    background-size: cover;
+    color: white;
+    font-size: 25px;
+    height: 300px;
+}
+
+.page{
+    height: 100%;
 }
