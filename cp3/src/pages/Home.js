@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 
 const Home = () => {
   return (
-      <div className = "top">
+      <div className = {styles.top}>
         <h1>Home</h1>
       </div>
   );

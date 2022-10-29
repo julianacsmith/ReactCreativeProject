@@ -3,8 +3,8 @@ h1 {
     padding: 20px;
 }
 
-div{
+.top {
     background-image: url('images/Stream_Background.png');
     width: 100%;
-    height: auto;
+    height: 1000px;
 }
