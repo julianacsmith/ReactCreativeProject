@@ -7,15 +7,19 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
             <Nav className = "mr-auto">
-                <Nav.Item>
-                    <Nav.Link href="/">Home</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/about">About</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                </Nav.Item>
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <Link class="nav-link" to="/">Home</Link>
+                      </li>
+                      <li class="nav-item">
+                        <Link class="nav-link" to="/about">About</Link>
+                      </li>
+                      <li class="nav-item">
+                        <Link class="nav-link" to="/portfolio">Portfolio</Link>
+                      </li>
+                    </ul>
+                </div>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
